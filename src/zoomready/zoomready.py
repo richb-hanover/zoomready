@@ -110,10 +110,10 @@ class mainwindow:
        
         self.root = tk.Tk()
         self.root.title(title+' '+version+subtitle)
-        try:
-            self.root.iconbitmap('theicon.ico')
-        except Exception:
-            self.root.iconbitmap(os.path.join(sys._MEIPASS,'theicon.ico'))
+        # try:
+        #     self.root.iconbitmap('theicon.ico')
+        # except Exception:
+        #     self.root.iconbitmap(os.path.join(sys._MEIPASS,'theicon.ico'))
         self.frm = ttk.Frame(self.root, padding=10)
         self.frm1=ttk.Frame(self.root,padding=10)    
         self.callafter=callafter
