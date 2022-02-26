@@ -26,7 +26,7 @@ import versionutils
 from cloudflarepycli import cloudflareclass
 
 while (1==1):
-    ping3("1.1.1.1")
+    # ping3("1.1.1.1")
     time.sleep(1)
 
 print("goodbye")
