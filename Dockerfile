@@ -14,5 +14,5 @@ RUN pip install --no-cache-dir -U ping3
 RUN pip install --no-cache-dir -U cloudflarepycli
 
 # Commands to run Tkinter application
-CMD ["/src/zoomsimple.py"]
+CMD ["/src/zoomready.py"]
 ENTRYPOINT ["python3"]
